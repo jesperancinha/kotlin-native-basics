@@ -28,4 +28,4 @@ replay_pid*
 
 # Generated files
 stdio.klib-build
-puts.kexe
+*.kexe
