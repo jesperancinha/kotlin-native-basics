@@ -5,6 +5,13 @@ b:
 	make
 	cd return42; \
 	make
+build-pipeline:
+	cd add; \
+	make pipeline
+	cd puts; \
+	make pipeline
+	cd return42; \
+	make pipeline
 install:
 	yes | sudo snap install --classic kotlin
 	sudo apt install -y llvm-19 clang-19

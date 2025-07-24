@@ -24,4 +24,4 @@ jobs:
           run: make install
 
         - name: Build and Test
-          run:  make b
+          run:  make build-pipeline
