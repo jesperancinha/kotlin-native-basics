@@ -13,8 +13,9 @@ build-pipeline:
 	cd return42; \
 	make pipeline
 install:
-	yes | sudo snap install --classic kotlin
-	sudo apt install -y llvm-19 clang-19
+	yes | sudo snap install --classic kotlin; \
+	sudo apt install -y llvm-19 clang-19; \
+	bash install-konanc.sh
 llvm_version:
 	llvm-config-19 --version
 deps-plugins-update:

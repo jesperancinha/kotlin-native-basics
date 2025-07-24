@@ -5,5 +5,5 @@ install:
 	sudo apt update
 	sudo apt install build-essential clang
 pipeline:
-	/snap/kotlin/current/bin/cinterop  -def stdio.def -o stdio.klib
-	/snap/kotlin/current/bin/konanc  main.kt -o puts -library stdio.klib
+	cinterop  -def stdio.def -o stdio.klib
+	konanc  main.kt -o puts -library stdio.klib
