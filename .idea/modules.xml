@@ -2,6 +2,8 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/allocate-page-allocator.iml" filepath="$PROJECT_DIR$/allocate-page-allocator.iml" />
+      <module fileurl="file://$PROJECT_DIR$/allocate-per-object/allocate-per-object.iml" filepath="$PROJECT_DIR$/allocate-per-object/allocate-per-object.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/kotlin-native-basics.iml" filepath="$PROJECT_DIR$/.idea/kotlin-native-basics.iml" />
     </modules>
   </component>
