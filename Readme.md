@@ -3,6 +3,10 @@ Basics surrounding the topics of Kotlin native. One of the most important ones b
 
 ## Resources
 
+### Online
+
+- https://kotlinlang.org/docs/whatsnew22.html
+
 ### Books
 
 -   Moskala, M. (2021 - 2022). <i>Kotlin Coroutines DEEP DIVE</i>. (First Edition). Kt. Academy
