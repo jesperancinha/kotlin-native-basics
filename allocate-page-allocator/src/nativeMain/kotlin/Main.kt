@@ -1,5 +1,3 @@
-package org.jesperancinha.knb
-
 import kotlin.time.measureTime
 
 class TestObject(val id: Int, val data: ByteArray)
