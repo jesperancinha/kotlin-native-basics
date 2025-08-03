@@ -16,6 +16,7 @@ install:
 	yes | sudo snap install --classic kotlin; \
 	sudo apt install -y llvm-19 clang-19; \
 	bash install-konanc.sh
+	sudo apt install -y linux-tools-generic linux-cloud-tools-generic heaptrack heaptrack-gui
 llvm_version:
 	llvm-config-19 --version
 deps-plugins-update:
