@@ -1,1 +1,1 @@
-rootProject.name = "allocate-page-allocator"
+rootProject.name = "allocate-per-object"
