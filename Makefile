@@ -28,5 +28,5 @@ update-repo-prs:
 accept-prs:
 	curl -sL https://raw.githubusercontent.com/jesperancinha/project-signer/master/acceptPR.sh | bash
 build-gradle:
-	cd allocate-page-allocator && ./gradlew build test; \
-	cd allocate-per-object && ./gradlew build test
+	cd allocate-page-allocator && ./gradlew build
+	cd allocate-per-object && ./gradlew build
